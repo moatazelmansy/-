@@ -1,0 +1,67 @@
+body{
+    font-family: Tajawal;
+}
+header{
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) ,url(../images/background.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.navbar{
+   /* background-color: gainsboro !important;*/
+    box-shadow: 0 5px 10px rgba(90, 168, 183, 0.7) ;
+}
+.navbar-brand , .nav-link{
+    color:#3292A6;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 30px !important;
+}
+.nav-link.active , .nav-link:hover{
+    color:white !important ;
+
+}
+#authors img {
+    margin-top: -60px !important;
+}
+footer{
+    background-color: #555555;
+    padding-top: 50px;
+}
+.footer p{
+    text-align: center;
+    margin-top: 10px;
+    color:#F4F4F4;
+}
+.footer-nav , .socail-nav{
+    list-style: none;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+}
+.socail-nav{
+    float: right;
+}
+.footer-nav li , .socail-nav li {
+    margin-right: 20px;
+    font-weight: 300;
+}
+.footer-nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#F4F4F4;
+}
+.socail-nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#F4F4F4;
+}
+.footer-nav li a:hover , .socail-nav li a:hover{
+    text-decoration: underline;
+    color: #E67E22;
+}
+.Design{
+    color: #E44B64; 
+    text-decoration: none;
+}
